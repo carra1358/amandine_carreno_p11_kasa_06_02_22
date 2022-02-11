@@ -5,15 +5,16 @@ import {
   Route,
   Routes
 } from "react-router-dom";
-
-import './styles/home.css';
+import "./styles/index.css"
 import Home from './pages/Home';
 import About from "./pages/About";
+import Header from './components/Header';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
+      <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="about" element={<About/>}/>

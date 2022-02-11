@@ -1,3 +1,7 @@
-.debut{
-    color: darkred;
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 7% 4% 7%;
 }
