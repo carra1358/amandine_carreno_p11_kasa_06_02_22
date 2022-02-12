@@ -53,3 +53,21 @@ body{
     margin-top:1.3em ;
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px){
+    .banner_text{
+        font-size: 24px;
+        width: 80%;
+        left: 20px;
+    }
+    .banner{
+    height: 111px;
+    }
+
+    .footer_text{
+        font-size: 12px;
+    }
+   .footer{
+       padding: 5%;
+   }
+}

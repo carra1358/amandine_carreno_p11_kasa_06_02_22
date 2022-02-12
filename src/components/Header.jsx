@@ -12,7 +12,7 @@ function Header(){
     return(
         <div id="header_container">
             <div>
-                <img src={LogoRed} alt="logo kasa" />
+                <img src={LogoRed} alt="logo kasa" className="logo_header" />
             </div>
             <nav id="nav_container">
                <CustomLink to="/" label="Acceuil"/>
