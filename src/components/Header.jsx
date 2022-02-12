@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+
 import LogoRed from "../assets/logo_red.png";
 import "../styles/header.css";
 import CustomLink from "./CustomLink";

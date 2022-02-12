@@ -9,6 +9,7 @@ import "./styles/index.css"
 import Home from './pages/Home';
 import About from "./pages/About";
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 ReactDOM.render(
@@ -19,8 +20,8 @@ ReactDOM.render(
         <Route path="/" element={<Home/>}/>
         <Route path="about" element={<About/>}/>
       </Routes>
-      
-    </Router>
+    <Footer/>
+    </Router> 
   </React.StrictMode>,
   document.getElementById('root')
 );
