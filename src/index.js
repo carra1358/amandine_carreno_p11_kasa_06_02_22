@@ -11,6 +11,7 @@ import About from "./pages/About";
 import Error from './pages/Error';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Housing from "./pages/Housing"
 
 
 ReactDOM.render(
@@ -18,9 +19,10 @@ ReactDOM.render(
     <Router>
       <Header/>
       <Routes>
-        <Route path="/" element={<Home/>}/>
         <Route path="about" element={<About/>}/>
-        <Route path="*" element={<Error/>}  />
+        <Route path="housing/:id/*" element={<Housing/>}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="*" element={<Error/>} />
       </Routes>
     <Footer/>
     </Router> 

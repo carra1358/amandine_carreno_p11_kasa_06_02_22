@@ -11,7 +11,7 @@ return isOpen ? (
     <div className="dropdown">
        <div className="dropdown_top">
            <h4 className="dropdown_title">{title}</h4>
-           <FaChevronUp className="dropdown_icon" id="chevron_up" onClick={ ()=> setIsOpen(false)}/>
+           <FaChevronUp className="dropdown_icon" id="chevron_up" onClick={ ()=> setIsOpen(true)}/>
        </div>
       <p className="dropdown_content">{textecontent}</p>
 </div>
@@ -20,7 +20,7 @@ return isOpen ? (
       <div className="dropdown">
        <div className="dropdown_top">
            <h4 className="dropdown_title">{title}</h4>
-           <FaChevronDown className="dropdown_icon" id="chevron_up" onClick={ ()=> setIsOpen(true)}/>
+           <FaChevronDown className="dropdown_icon" id="chevron_up" onClick={ ()=> setIsOpen(false)}/>
        </div>
       <p style={{display:"none"}}>{textecontent}</p>
 </div>)

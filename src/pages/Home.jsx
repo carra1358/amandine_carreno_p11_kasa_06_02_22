@@ -12,7 +12,7 @@ function Home(){
      <Banner urlImg={bannerHome} texte="Chez vous, partout et ailleurs"/>
      <div className='thumb_container'>
       {data.map(data => {
-        return <Thumb title={data.title} cover={data.cover} key={data.id}></Thumb>
+        return <Thumb title={data.title} cover={data.cover} key={data.id} id={data.id}/>
       })}
      </div>
     </div>)
