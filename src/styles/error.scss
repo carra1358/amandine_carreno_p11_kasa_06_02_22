@@ -18,10 +18,12 @@
    
 }
 
-.error_page > a {
-    font-size: 1.13em;
-    margin-bottom: 5%;
-}
+.error_page{
+    a {
+        font-size: 1.13em;
+        margin-bottom: 5%;
+    }
+} 
 
 
 @media  screen and (max-width: 767px){
@@ -41,9 +43,11 @@
         margin-top: 1%;
     }
     
-    .error_page > a {
-        font-size: 14px;
-        margin-bottom: 90%;
+    .error_page{
+        a {
+            font-size: 14px;
+            margin-bottom: 90%;
+        }
     }
    
 }
