@@ -24,10 +24,12 @@
    
 }
 
-.accordeon > div {
-    margin: 0;
-    width: 100%;
-    font-size: 18px;
+.accordeon{
+    div {
+        margin: 0;
+        width: 100%;
+        font-size: 18px;
+    }
 }
 
 .equipement_el{
@@ -82,6 +84,7 @@
 
 .host{
     display: flex;
+    align-content: center;
     font-size: 18px;
 }
 
@@ -92,8 +95,9 @@
 }
 
 .host_name{
-    margin-top: 0;
-    margin-right: 10px;
+    margin: 0 10px 0 0;
+    text-align: right;
+    
 }
 
 .star{
@@ -101,6 +105,9 @@
 }
 
 @media  screen and (max-width: 768px){
+    .housing_main {
+        margin-bottom: 7%;
+    }
     .gallery_container{
         height: 255px;
         border-radius: 10px; 
@@ -156,18 +163,20 @@
    
    
 }
-.accordeon > div {
-    font-size: 13px;
+.accordeon {
+    div {
+        font-size: 13px;
+        p{
+            margin-bottom: 0;
+            padding-top: 0.95em;
+            padding-bottom: 0.5em;
+
+        }
+        div{
+            height: 29.93px;
+        }
+    }
+
+}
 }
 
-.accordeon >div >p {
-    margin-bottom: 0;
-    padding-top: 0.95em;
-    padding-bottom: 0.5em;
-}
-
-.accordeon > div > div{
-    height: 29.93px;
-}
-
-}
