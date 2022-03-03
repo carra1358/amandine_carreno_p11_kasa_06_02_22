@@ -73,7 +73,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 - All routes are in index.js folder
 
-- You can visualize my project with this following link :
+- You can visualize my project with this following link : https://6220ae151fdc41c1146c4cf5--competent-elion-88a1e3.netlify.app/ 
 
 
 ## Author
