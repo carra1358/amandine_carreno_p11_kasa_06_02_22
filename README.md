@@ -1,6 +1,35 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# KASA Agency
+![HTML](https://img.shields.io/badge/Use-HMTL-green) 
+
+![CSS](https://img.shields.io/badge/Use-SASS-purple) 
+
+![Javascript](https://shields.io/badge/Use-javascript-yellow)
+
+![React](https://shields.io/badge/madewith-reactApp-teal)
+
+![React](https://shields.io/badge/madewith-reactRouter-blue)
+
+## Cursus OpenClassrooms: Project 11
+
+the aim of this project is to bluid an app using React App and React Router.
+
+## Skills assessed
+
+- Create routes with reactRouter
+- start a project with a framework
+- Create components
+
+
+## Tech
+- [ReactApp](https://github.com/facebook/create-react-app)-Create React apps with no build configuration
+- [React Router](https://github.com/remix-run/react-router)- Routing library for the React JavaScript library
+- [Visual Studio Code ](https://code.visualstudio.com/) - Code editor.
+- [Git](https://git-scm.com/) - Version control.
+
+## Installation
+- git clone
+- npm install
 
 ## Available Scripts
 
@@ -39,32 +68,20 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Notes
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- All routes are in index.js folder
 
-### Code Splitting
+- You can visualize my project with this following link :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Amandine Carreno
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
